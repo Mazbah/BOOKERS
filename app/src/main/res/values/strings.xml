@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BOOKERS</string>
+    <array name="Condition">
+        <item>Choose Condition</item>
+        <item>OLD</item>
+        <item>NEW</item>
+    </array>
+    <array name="Location">
+        <item>Choose Location</item>
+        <item>Chawkbazar</item>
+        <item>Chittagong University</item>
+        <item>Chowdhury Hat</item>
+        <item>Fatehabad</item>
+        <item>Muradpur</item>
+        <item>2 no. Gate</item>
+        <item>G e c</item>
+    </array>
+</resources>

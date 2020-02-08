@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="28"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="1595780450730"
+    token="4083577499503517166"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1238" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1145" />
+    <task
+        name="verifier"
+        duration="694" />
+
+    <artifact
+        location="C:\Users\User\Downloads\Compressed\Uber36\BOOKERS\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1595780450730"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\User\Downloads\Compressed\Uber36\BOOKERS\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details_books"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.bookers.Details_books">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:context="com.example.">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:background="@color/gray"
+            android:id="@+id/singleImageview"/>
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Book Title"
+                android:textColor="#100d0d"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bookTitle"
+                android:textSize="20sp"
+                android:text="Book Title"
+                android:textColor="#100d0d"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Author Name"
+                android:textColor="#100d0d"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/book_Author"
+                android:textSize="20sp"
+                android:text="Author"
+                android:textColor="#100d0d"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Condition"
+                android:textColor="#100d0d"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/book_condition"
+                android:textSize="20sp"
+                android:text="Condtion"
+                android:textColor="#100d0d"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Seller Name"
+                android:textColor="#100d0d"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/book_Seller"
+                android:textSize="20sp"
+                android:text="Seller"
+                android:textColor="#100d0d"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Location"
+                android:textColor="#100d0d"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/book_Location"
+                android:textSize="20sp"
+                android:text="Location"
+                android:textColor="#100d0d"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Mobile Number"
+                android:textColor="#100d0d"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/book_seller_Number"
+                android:textSize="20sp"
+                android:text="mobile number"
+                android:textColor="#100d0d"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/callBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Call"
+            android:background="#FFEA0404"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

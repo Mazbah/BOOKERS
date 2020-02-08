@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_my__rents"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.bookers.My_Rents"
+    >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:background="@drawable/edit"
+            android:layout_margin="4dp"
+            android:id="@+id/code"
+            android:padding="8dp"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            android:hint="Submit Rent Code"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:layout_width="85dp"
+            android:background="@drawable/buttonstyle"
+            android:text="submit"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitcode"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/buttonstyle"
+            android:text="tap to see the rent book"
+            android:layout_height="wrap_content"
+            android:id="@+id/see_the_list"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

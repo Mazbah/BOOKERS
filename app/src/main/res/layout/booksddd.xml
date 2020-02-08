@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bk"
+        android:layout_height="match_parent"
+        tools:context="com.example.">
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageBtn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_add_black_24dp"
+             />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/bookTitle"
+            android:background="@drawable/buttonstyle"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:hint="Book Title"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/bookAuthor"
+            android:background="@drawable/buttonstyle"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:hint="Book Author"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/buttonstyle"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Book Price"
+            android:textColor="#fff"
+            android:id="@+id/bookPrice"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstyle"
+            android:id="@+id/spinner_condition"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/Condition"
+            >
+
+        </Spinner>
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstyle"
+            android:id="@+id/spinner_chooseLocation"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/Location"
+            >
+
+        </Spinner>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/postBtn"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"/>
+    </LinearLayout>
+</ScrollView>

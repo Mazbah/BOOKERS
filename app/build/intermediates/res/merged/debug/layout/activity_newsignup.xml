@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        >
+        <LinearLayout
+            android:background="@drawable/book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:text="Sign Up"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:textColorHint="@color/gray"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Enter a name"
+                android:background="@drawable/buttonstyle"
+                android:layout_margin="8dp"
+                android:padding="16dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/e_name" />
+            <EditText
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"
+                android:layout_margin="8dp"
+                android:padding="16dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  Email"
+                android:inputType="textEmailAddress"
+                android:id="@+id/e_email" />
+            <EditText
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"
+                android:layout_margin="8dp"
+
+                android:padding="16dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  Phone Number"
+                android:inputType="numberDecimal"
+                android:id="@+id/e_phone" />
+            <EditText
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"
+                android:layout_margin="8dp"
+
+                android:padding="16dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Password"
+                android:inputType="textPassword"
+                android:id="@+id/e_pass" />
+
+            <EditText
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"
+                android:layout_margin="8dp"
+
+                android:padding="16dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:id="@+id/e_confirmpass" />
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp"
+                android:text="Sumbit"
+                android:textColor="#fff"
+                android:background="@drawable/action_button_style"
+                android:layout_gravity="center"
+                android:id="@+id/ok" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
